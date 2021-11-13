@@ -1,0 +1,22 @@
+{
+  "name": "estructura-de-datos-javascript",
+  "version": "1.0.0",
+  "description": "Mis apuntes para aprender Estructuras de Datos en Javascript",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "estructura-datos",
+    "pilas",
+    "listas",
+    "colas",
+    "arboles",
+    "grafos",
+    "hash",
+    "arrays"
+  ],
+  "author": "Luis Rodriguez - DarkusPhantom <darkusphantom13@gmail.com>",
+  "license": "MIT"
+}
