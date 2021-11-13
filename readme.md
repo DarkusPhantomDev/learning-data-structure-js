@@ -133,7 +133,7 @@ Con las Singly Linked List no puedes regresarte. Siempre va recorriendo desde la
 
 ```javascript
 // 1 --> 2 --> 3 --> 4 --> 5 --> null
-
+//Una idea de lo que queremos llegar y cómo se ven las listas
 let singlyLinkedList = {
 	head: {
 		value: 1,
@@ -200,5 +200,59 @@ console.log(myLinkedList);
 
 myLinkedList.append(5);
 console.log(myLinkedList);
+```
+
+Creamos el método `prepend` para insertar un valor al inicio de la lista...
+
+```javascript
+prepend(value) {
+  const newNode = new Node(value);
+
+  newNode.next = this.head;
+  this.head = newNode;
+  this.length++;
+
+  return this;
+}
+```
+
+```java
+myLinkedList.prepend(0);
+console.log(myLinkedList);
+```
+
+Metodo para insertar
+
+```javascript
+insert(index, value) {
+  if (index >= this.length) {
+    return this.append(value);
+  }
+
+  const neNode = new Node(value);
+  const firstPointer = this.getTheIndex(index - 1);
+  const holdingPointer = firstPointer.next;
+
+  firstPointer.next = newNode;
+  newNode.next = holdingPointer;
+
+  this.length++;
+}
+```
+
+Metodo para buscar el elemento
+
+```javascript
+getTheIndex(index) {
+  let counter = 0;
+  let currentNode = this.head;
+
+  while(counter !== index) {
+    currentNode = currentNode.next;
+    counter++;
+  }
+
+  return currentNode;
+}
 ```
 

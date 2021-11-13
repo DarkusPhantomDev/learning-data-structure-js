@@ -54,22 +54,24 @@ class SinglyLinkedList {
 
 		return this;
 	}
+
+	insert(index, value) {}
 }
 
 let myLinkedList = new SinglyLinkedList(1);
-console.log(myLinkedList);
+/*console.log(myLinkedList);*/
 
 myLinkedList.append(2);
-console.log(myLinkedList);
+/*console.log(myLinkedList);*/
 
 myLinkedList.append(3);
-console.log(myLinkedList);
+/*console.log(myLinkedList);*/
 
 myLinkedList.append(4);
-console.log(myLinkedList);
+/*console.log(myLinkedList);*/
 
 myLinkedList.append(5);
-console.log(myLinkedList);
+/*console.log(myLinkedList);*/
 
 myLinkedList.prepend(0);
-console.log(myLinkedList);
+/*console.log(myLinkedList);*/
