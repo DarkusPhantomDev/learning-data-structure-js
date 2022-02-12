@@ -134,10 +134,14 @@ Con las Singly Linked List no puedes regresarte. Siempre va recorriendo desde la
 ```javascript
 // 1 --> 2 --> 3 --> 4 --> 5 --> null
 <<<<<<< HEAD
+<<<<<<< HEAD
 //Una idea de lo que queremos llegar y cómo se ven las listas
 =======
 
 >>>>>>> feature/hash
+=======
+//Una idea de lo que queremos llegar y cómo se ven las listas
+>>>>>>> feature/linked-list
 let singlyLinkedList = {
 	head: {
 		value: 1,
@@ -188,10 +192,14 @@ class SinglyLinkedList {
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Ahora, probemos el código agregando un valor con el método `append`:
 =======
 Ahora, probemos el codigo agregando un valor con el método `append`:
 >>>>>>> feature/hash
+=======
+Ahora, probemos el código agregando un valor con el método `append`:
+>>>>>>> feature/linked-list
 
 ```javascript
 let myLinkedList = new SinglyLinkedList(1);
@@ -211,6 +219,9 @@ console.log(myLinkedList);
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feature/linked-list
 Creamos el método `prepend` para insertar un valor al inicio de la lista...
 
 ```javascript
@@ -265,5 +276,8 @@ getTheIndex(index) {
 }
 ```
 
+<<<<<<< HEAD
 =======
 >>>>>>> feature/hash
+=======
+>>>>>>> feature/linked-list
